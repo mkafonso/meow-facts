@@ -9,7 +9,20 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        jost: ["Jost", "sans"],
+      },
+      colors: {
+        main: {
+          500: "#22223B",
+          400: "#4A4E69",
+          300: "#9A8C98",
+          200: "#C9ADA7",
+          100: "#F2E9E4",
+        },
+      },
+    },
   },
   plugins: [],
 };
