@@ -7,7 +7,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test:unit": "vitest",
+    "test:e2e": "npx cypress open"
   },
   "dependencies": {
     "@nuxt/image": "1.7.0",
@@ -20,8 +22,14 @@
     "vue-router": "4.3.2"
   },
   "devDependencies": {
+    "@nuxt/test-utils": "3.13.1",
+    "@vitejs/plugin-vue": "5.0.5",
+    "@vue/test-utils": "2.4.6",
     "autoprefixer": "10.4.19",
+    "cypress": "13.10.0",
+    "jsdom": "24.1.0",
     "postcss": "8.4.38",
-    "tailwindcss": "3.4.3"
+    "tailwindcss": "3.4.3",
+    "vitest": "1.6.0"
   }
 }

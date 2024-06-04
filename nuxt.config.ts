@@ -11,7 +11,13 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/image", "nuxt-icon", "@pinia/nuxt", "@nuxtjs/google-fonts"],
+  modules: [
+    "@nuxt/image",
+    "nuxt-icon",
+    "@pinia/nuxt",
+    "@nuxtjs/google-fonts",
+    "@nuxt/test-utils/module",
+  ],
 
   googleFonts: {
     display: "swap",

@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import CatFact from "~/components/cat-fact.vue";
-import CatImageGrid from "~/components/image-grid.vue";
+import CatFact from "../components/cat-fact.vue";
+import CatImageGrid from "../components/image-grid.vue";
 
 export default {
   components: {
